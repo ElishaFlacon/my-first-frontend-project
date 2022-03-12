@@ -1,0 +1,611 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,*:before,*:after{
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+
+
+
+.bg{
+    background: url('../img/фон.png');
+}
+
+.TEAM{
+    position: absolute;
+    display: inline-block;
+    font-size: 64px;
+    margin: 180px 0 0 820px;
+    color: #606062;
+}
+
+.XX{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-size: 170px;
+    margin: 295px 0 0 725px;
+}
+
+.friend{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-style: italic;
+    font-size: 44px;
+    margin: 560px 0 0 681px;
+}
+
+.dota{
+    position: absolute;
+    background: url('../img/dotaLogo.png') no-repeat;
+    width: 137px;
+    height: 138px;
+    margin: 641px 0 0 860px;
+}
+
+.line1{
+    position: absolute;
+    background: url('../img/line.png') no-repeat;
+    width: 1772px;
+    height: 2px;
+    margin: 819px 0px 0 130px;
+}
+
+.sostav{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-size: 44px;
+    margin: 840px 0 0 780px;
+}
+
+.line2{
+    position: absolute;
+    background: url('../img/line.png') no-repeat;
+    width: 1772px;
+    height: 2px;
+    margin: 899px 0px 0 130px;
+}
+
+.misha{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 920px 0 0 400px;
+}
+
+.role1{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 920px 0 0 985px;
+}
+
+.siteSteam1{
+    position: absolute;
+    display: inline-block;
+    margin: 920px 0 0 1180px;
+}
+
+.siteBuff1{
+    position: absolute;
+    display: inline-block;
+    margin: 920px 0 0 1300px;
+}
+
+.siteVK1{
+    position: absolute;
+    display: inline-block;
+    margin: 920px 0 0 1420px;
+}
+
+.line3{
+    position: absolute;
+    background: url('../img/line.png') no-repeat;
+    width: 1772px;
+    height: 2px;
+    margin: 1019px 0 0 130px;
+}
+
+.sergio{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 1040px 0 0 400px;
+}
+
+.role2{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 1040px 0 0 1011px;
+}
+
+.siteSteam2{
+    position: absolute;
+    display: inline-block;
+    margin: 1040px 0 0 1180px;
+}
+
+.siteBuff2{
+    position: absolute;
+    display: inline-block;
+    margin: 1040px 0 0 1300px;
+}
+
+.siteVK2{
+    position: absolute;
+    display: inline-block;
+    margin: 1040px 0 0 1420px;
+}
+
+.line4{
+    position: absolute;
+    background: url('../img/line.png') no-repeat;
+    width: 1772px;
+    height: 2px;
+    margin: 1140px 0 0 130px;
+}
+
+.lis{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 1160px 0 0 400px;
+}
+
+.role3{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 1160px 0 0 1010px;
+}
+
+.siteSteam3{
+    position: absolute;
+    display: inline-block;
+    margin: 1160px 0 0 1180px;
+}
+
+.siteBuff3{
+    position: absolute;
+    display: inline-block;
+    margin: 1160px 0 0 1300px;
+}
+
+.siteVK3{
+    position: absolute;
+    display: inline-block;
+    margin: 1160px 0 0 1420px;
+}
+
+.line5{
+    position: absolute;
+    background: url('../img/line.png');
+    width: 1642px;
+    height: 2px;
+    margin: 1260px 0 0 130px;
+}
+
+.andrey{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 1280px 0 0 400px;
+}
+
+.role4{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 1280px 0 0 1010px;
+}
+
+.siteSteam4{
+    position: absolute;
+    display: inline-block;
+    margin: 1280px 0 0 1180px;
+}
+
+.siteBuff4{
+    position: absolute;
+    display: inline-block;
+    margin: 1280px 0 0 1300px;
+}
+
+.siteVK4{
+    position: absolute;
+    display: inline-block;
+    margin: 1280px 0 0 1420px;
+}
+
+.line6{
+    position: absolute;
+    background: url('../img/line.png');
+    width: 1642px;
+    height: 2px;
+    margin: 1379px 0 0 130px;
+}
+
+.sasha{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 1400px 0 0 400px;
+}
+
+.role5{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 1400px 0 0 998px;
+}
+
+.siteSteam5{
+    position: absolute;
+    display: inline-block;
+    margin: 1400px 0 0 1180px;
+}
+
+.siteBuff5{
+    position: absolute;
+    display: inline-block;
+    margin: 1400px 0 0 1300px;
+}
+
+.siteVK5{
+    position: absolute;
+    display: inline-block;
+    margin: 1400px 0 0 1420px;
+}
+
+.line7{
+    position: absolute;
+    background: url('../img/line.png');
+    width: 1642px;
+    height: 2px;
+    margin: 1499px 0 0 130px;
+}
+
+.danil{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 1520px 0 0 400px;
+}
+
+.role6{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 1520px 0 0 940px;
+}
+
+.siteSteam6{
+    position: absolute;
+    display: inline-block;
+    margin: 1520px 0 0 1180px;
+}
+
+.siteBuff6{
+    position: absolute;
+    display: inline-block;
+    margin: 1520px 0 0 1300px;
+}
+
+.siteVK6{
+    position: absolute;
+    display: inline-block;
+    margin: 1520px 0 0 1420px;
+}
+
+.line8{
+    position: absolute;
+    background: url('../img/line.png');
+    width: 1642px;
+    height: 2px;
+    margin: 1619px 0 0 130px;
+}
+
+.thanks{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-size: 44px;
+    margin: 2100px 0 0 550px;
+}
+
+.line9{
+    position: absolute;
+    background: url('../img/line.png');
+    width: 1642px;
+    height: 2px;
+    margin: 2199px 0 0 130px;
+}
+
+.pavuk{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 2220px 0 0 400px;
+}
+
+.role7{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 2220px 0 0 1000px;
+}
+
+.siteSteam7{
+    position: absolute;
+    display: inline-block;
+    margin: 2220px 0 0 1180px;
+}
+
+.siteVK7{
+    position: absolute;
+    display: inline-block;
+    margin: 2220px 0 0 1300px;
+}
+
+.line10{
+    position: absolute;
+    background: url('../img/line.png');
+    width: 1642px;
+    height: 2px;
+    margin: 2319px 0 0 130px;
+}
+
+.dima{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 2340px 0 0 400px;
+}
+
+.role8{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 2340px 0 0 1000px;
+}
+
+.siteSteam8{
+    position: absolute;
+    display: inline-block;
+    margin: 2340px 0 0 1180px;
+}
+
+.siteVK8{
+    position: absolute;
+    display: inline-block;
+    margin: 2340px 0 0 1300px;
+}
+
+.line11{
+    position: absolute;
+    background: url('../img/line.png');
+    width: 1642px;
+    height: 2px;
+    margin: 2439px 0 0 130px;
+}
+
+.nastya{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 2460px 0 0 400px;
+}
+
+.role9{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 2460px 0 0 1000px;
+}
+
+.siteSteam9{
+    position: absolute;
+    display: inline-block;
+    margin: 2460px 0 0 1180px;
+}
+
+.siteVK9{
+    position: absolute;
+    display: inline-block;
+    margin: 2460px 0 0 1300px;
+}
+
+.line12{
+    position: absolute;
+    background: url('../img/line.png');
+    width: 1642px;
+    height: 2px;
+    margin: 2559px 0 0 130px;
+}
+
+.thanks2{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-size: 44px;
+    margin: 2600px 0 0 500px;
+}
+
+.thanks3{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-size: 44px;
+    margin: 2650px 0 0 600px;
+}
+
+.line13{
+    position: absolute;
+    background: url('../img/line.png');
+    width: 1642px;
+    height: 2px;
+    margin: 2749px 0 0 130px;
+}
+
+.pasha{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 2770px 0 0 400px;
+}
+
+.role10{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 2770px 0 0 975px;
+}
+
+.siteSteam10{
+    position: absolute;
+    display: inline-block;
+    margin: 2770px 0 0 1180px;
+}
+
+.siteVK10{
+    position: absolute;
+    display: inline-block;
+    margin: 2770px 0 0 1300px;
+}
+
+.line14{
+    position: absolute;
+    background: url('../img/line.png');
+    width: 1642px;
+    height: 2px;
+    margin: 2869px 0 0 130px;
+}
+
+.disc{
+    position: absolute;
+    color: #a7abb7;
+    display: inline-block;
+    font-size: 44px;
+    margin: 3000px 0 0 800px;
+}
+
+.discSite{
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    margin: 3050px 0 0 890px;
+}
+
+.lastspace{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: 3500px 0 0 890px;
+}
+
