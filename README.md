@@ -1,4 +1,7 @@
-# this is my first frontend project
-# i made it a two week after i started studying
-# sorry but this my history
-# dont open it please, this cringe, i warned you :D
+# Это моя первая работа по верстке
+
+Верстка была сделана через 5 дней поле начала изучения верстки
+
+Она сделана на абсолютном позиционировании...
+
+Дeмаю вы и так все поняли :D
