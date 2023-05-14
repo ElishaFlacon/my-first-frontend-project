@@ -15,8 +15,8 @@
   🛠️ Инструменты, которые использовались при разработке приложения:
 </h2>
 
-- html
-- css
+- HTML CSS
+- position: absolute XD
 
 
 
@@ -28,9 +28,9 @@
   🚀 Зпуск приложения:
 </h2>
 
-- git clone https://github.com/ElishaFlacon/xynex-v1.git
-- cd xynex-v1
-- start index.html
+- `git clone https://github.com/ElishaFlacon/xynex-v1.git`
+- `cd xynex-v1`
+- `start index.html`
 <h3>
     Запускаем, не работет, ура! 🗿🚬
 </h3>
